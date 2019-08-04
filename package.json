@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "local": "vue-cli-service serve --mode local",
     "build": "vue-cli-service build",
+    "dev-build": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -16,7 +17,8 @@
     "postcss-px2rem": "^0.3.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
@@ -28,6 +30,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.2",
     "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.6.10"
   }

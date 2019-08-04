@@ -1,5 +1,5 @@
 import axios from 'axios'
-import configs from '@/config/merchant.js'
+import configs from '@/config/merchant'
 import qs from 'querystring'
 
 axios.defaults.baseURL = process.env.VUE_APP_DOYOO_URL

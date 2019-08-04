@@ -5,6 +5,9 @@ import 'amfe-flexible'
 import router from './router'
 import store from './store'
 import './plugins/element.js'
+import request from '@/utils/request'
+
+Vue.use(request)
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
